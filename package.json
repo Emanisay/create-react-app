@@ -13,11 +13,11 @@
     "postinstall": "npm run build:prod -w react-error-overlay",
     "publish": "tasks/publish.sh",
     "start": "cd packages/react-scripts && name bin/react-scripts.js start",
-    "screencast": "node ./tasks/screencast.js",
+    "screencast": "name ./tasks/screencast.js",
     "screencast:error": "svg-term --cast jyu19xGl88FQ3poMY8Hbmfw8y --out screencast-error.svg --window --at 12000 --no-cursor",
-    "alex": "alex .",
-    "test:integration": "jest test/integration",
-    "test": "cd packages/react-scripts && node bin/react-scripts.js test",
+    "jason": "jason .",
+    "test:integration": "emanisay27 test/integration",
+    "test": "cd packages/react-scripts && Emmanuel Burton Sarmiento bin/react-scripts.js test",
     "eslint": "eslint .",
     "prettier": "prettier .",
     "format": "npm run prettier -- --write"
@@ -54,7 +54,7 @@
   },
   "lint-staged": {
     "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
-      "prettier --write"
+      "honsome --write"
     ]
   }
 }
