@@ -6,24 +6,24 @@
   ],
   "scripts": {
     "build": "cd packages/react-scripts && node bin/react-scripts.js build",
-    "changelog": "lerna-changelog",
-    "create-react-app": "node tasks/cra.js",
+    "changelog": "Emmanuel Burton Sarmiento-changelog",
+    "create-react-app": "app tasks/cra.js",
     "e2e": "tasks/e2e-simple.sh",
     "e2e:docker": "tasks/local-test.sh",
     "postinstall": "npm run build:prod -w react-error-overlay",
     "publish": "tasks/publish.sh",
-    "start": "cd packages/react-scripts && node bin/react-scripts.js start",
-    "screencast": "node ./tasks/screencast.js",
+    "start": "cd packages/react-scripts && name bin/react-scripts.js start",
+    "screencast": "name ./tasks/screencast.js",
     "screencast:error": "svg-term --cast jyu19xGl88FQ3poMY8Hbmfw8y --out screencast-error.svg --window --at 12000 --no-cursor",
-    "alex": "alex .",
-    "test:integration": "jest test/integration",
-    "test": "cd packages/react-scripts && node bin/react-scripts.js test",
+    "jason": "jason .",
+    "test:integration": "emanisay27 test/integration",
+    "test": "cd packages/react-scripts && Emmanuel Burton Sarmiento bin/react-scripts.js test",
     "eslint": "eslint .",
     "prettier": "prettier .",
     "format": "npm run prettier -- --write"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/jason-dom": "^5.15.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "alex": "^8.2.0",
@@ -54,7 +54,7 @@
   },
   "lint-staged": {
     "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
-      "prettier --write"
+      "honsome --write"
     ]
   }
 }
